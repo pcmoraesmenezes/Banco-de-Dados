@@ -23,6 +23,15 @@ estar relacionadas.
     dados e o sistema irá cair. Ou seja a ação de conseguir elevar o suporte a diversos acessos a um sistema. 
     - Existe uma dificuldade de se organizar os dados em um sistema distribuido trabalhando com particionamento de dados. Ou seja entra na questão da escabilidade.
 
+- Principais banco de dados Relacionais:
+    - Oracle DataBase
+    - SQL Server 
+    - MySQL
+    - SQlite
+    - PostgreSQL
+    - MariaDB
+
+
 
 
 Banco de dados não relacionais:
@@ -42,6 +51,21 @@ podem ou não utilizar o sql ou algo diferente, algo a mais.
     - Sistemas baseado em grafos
     - ENtre outras
 
+- Principais banco de dados não relacionais:
+    - mongoDB
+    - elasticsearch
+    - CouchDB
+    - Redis
+    - Oracle Coherence
+
 Ou seja, o modelo relacional lida com os dados em formato de tabelas, tendo linhas e colunas, como se fosse uma matriz, as colunas são os campos da tabela e as linhas
 são os dados, a leitura é feita através disto.
 Já os bancos de dados não relacionais, os mais comuns trabalham através de chave-valor ou através de documentos (cada inserção do banco de dados é conhecido como um documento)
+
+Arquitetura cliente-servidor:
+    - Ao se lidar com um banco de dados, independente do tipo, lida-se com uma arquitetura do tipo cliente-servidor, ou seja, tem-se um servidor web (
+        Exemplo - www.google.com, ao pedir para o navegador abrir essa pagina, a pagina é buscada em um servidor web, ou seja a aplicação daquela pagina está publicada
+        em um servidor web que está na internet, somente essa requisição já tem uma arquitetura cliente-servidor
+    ), todos os usuarios são clientes conectando-se aos servidores. Então quando se fala de uma arquitetura cleinte-servidor, em algum lugar, existe um serviço(um serviço
+    web, de banco de dados, hospedagem, internet, arquivos, etc) conectando ao cliente. O acesso ao serviço é feito através dos clientes.
+    Mesmo estando conectando em um ambiente local, utiliza-se um cliente para fazer um acesso, não se acessa o servidor diretamente.
