@@ -1,3 +1,5 @@
+# Modelagem
+
 Os modelos de banco de dados são usados para descrever, mais detalhadamente, a estruturada
 de um banco de dados. Eles servem então como parte importante da documentação dos sistemas
 que auxiliam nao somente os desenvolvedores que estão trabalhando no projeto, mas tambem
@@ -6,7 +8,7 @@ servem como documentação que pode ser entregue ao cliente que contratou o serv
 Um modelo de dados não informa quais dados estão armazenados em um banco de dados, mas sim apenas
 quais e que tipos de dados contém.
 
-Os modelos são baseados em três niveis: Conceitual, Lógico e Físico
+*Os modelos são baseados em três niveis: Conceitual, Lógico e Físico*
 
 
 Modelagem -> Modelos
@@ -16,7 +18,7 @@ Modelagem Físifca -> modelo físico
 
 Usa-se modelagem para ajudar a descrever com mais detalhes uma estrutura do banco de dados.
 
-Modelagem Conceitual
+## Modelagem Conceitual
 
 - Modelo mais alto nível, ou seja tá mais próximo dos usuários
 
@@ -43,7 +45,7 @@ Parte gráfica: ![Alt text](/Modelagem_de_dados/images/conceitual1.png)
     usando orientação a objetos. POrém nem todo o sistema e feito usando orientação a objetos, portanto recomenda-se utilizar o MER
     O modelo MER É independente de implementação
 
-Modelo Lógico
+## Modelo Lógico
 Descreve como os dados serão armazenados no banco de dados e seu relacionamento
 
 Nesse modelo pode-se definir a tecnologia utilizada para a armazenagem dos dados, por exemplo ou o banco de dados relacionais ou não relacionais.
@@ -70,7 +72,7 @@ Basicamente temos a definição dos nomes de tabela, suas colunas e definição 
 Os campos sublinhados são as chaves, ou seja o identificador do registro.
 
 
-Modelo Físico
+## Modelo Físico
 - Também chamado de modelo de implementação, descreve por meio de alguma linguagem, usualmente SQL, de como será feita a armazenagem do banco.
 - Nesse nivel se escolhe qual sistema gerenciador de banco de dados será utilizado.
 - No model ofisico é o momento da criação da tabela, é o último passo para se tomar uma decisão do tipo utilizado, é o modelo de implementação!
