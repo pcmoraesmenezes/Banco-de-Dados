@@ -1,4 +1,4 @@
-Data Control Language - Linguagem de Controle de Dados
+# Data Control Language - Linguagem de Controle de Dados
 
 No subgrupo DCL tem-se dois comandos:
 
