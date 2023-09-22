@@ -17,3 +17,4 @@ Se divide em 5 subgrupos:
 - DTL - Data Transaction Language - Linguagem de Transação de Dados
 
 ### Informações sobre DQL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DQL.md)
+.
