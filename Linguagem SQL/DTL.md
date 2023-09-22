@@ -1,6 +1,6 @@
-Data Transaction Language - Linguagem de Transação de Dados
+# Data Transaction Language - Linguagem de Transação de Dados
 
-No subgrupo DTL tem-se t^res comandos:
+No subgrupo DTL tem-se três comandos:
 
 - COMMIT
 
