@@ -20,3 +20,5 @@ Se divide em 5 subgrupos:
 
 ### Informações sobre DML disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DML.md)
 
+### Informações sobre DDL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DDL.md)
+
