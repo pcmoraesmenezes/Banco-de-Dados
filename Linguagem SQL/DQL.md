@@ -173,3 +173,250 @@ A saída será a seguinte:
 | Arroz   | 10.00 |
 | Feijão  | 5.00  |
 | Macarrão| 3.00  |
+
+
+## Filtrando consultas com WHERE
+
+A cláusula WHERE é utilizada para especificar uma condição para a consulta.
+
+Imagine a seguinte tabela de dados:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 1  | João | 20    | SP     |
+| 2  | Ana  | 18    | RJ     |
+| 3  | José | 20    | SP     |
+| 4  | Lua  | 20    | SP     |
+
+### Exemplo 10
+
+```sql
+
+SELECT * FROM alunos WHERE idade = 20;
+```
+
+A saída será a seguinte:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 1  | João | 20    | SP     |
+| 3  | José | 20    | SP     |
+| 4  | Lua  | 20    | SP     |
+
+É possível utilizasr operadores lógicos e aritmeticos para filtrar os resultados.
+
+## Filtrando consultas com LIKE
+
+O operador LIKE é utilizado para filtrar os resultados de acordo com um padrão.
+
+Imagine a seguinte tabela de dados:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 1  | João | 20    | SP     |
+| 2  | Ana  | 18    | RJ     |
+| 3  | José | 20    | SP     |
+| 4  | Lua  | 24    | SP     |
+
+### Exemplo 11
+
+```sql
+
+SELECT * FROM alunos WHERE nome LIKE 'L%';
+```
+
+A saída será a seguinte:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 4  | Lua  | 24    | SP     |
+
+Note que o operador LIKE é utilizado para filtrar os resultados de acordo com um padrão, no exemplo acima o padrão é a letra L seguida de qualquer coisa.
+
+### Exemplo 12
+
+```sql
+
+SELECT * FROM alunos WHERE nome LIKE '%a';
+```
+
+A saída será a seguinte:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 2  | Ana  | 18    | RJ     |
+| 4  | Lua  | 24    | SP     |
+
+Note que o operador LIKE é utilizado para filtrar os resultados de acordo com um padrão, no exemplo acima o padrão é qualquer coisa seguida da letra a.
+
+### Exemplo 13
+
+```sql
+
+SELECT * FROM alunos WHERE nome LIKE '%a%';
+```
+
+A saída será a seguinte:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 2  | Ana  | 18    | RJ     |
+| 4  | Lua  | 24    | SP     |
+
+Note que o operador LIKE é utilizado para filtrar os resultados de acordo com um padrão, no exemplo acima o padrão é qualquer coisa seguida da letra a seguida de qualquer coisa.
+
+```sql
+
+-- Operador LIke Funciona como uma busca, excelente quando se deseja buscar por  terminações de nomes, endereços, ruas
+SELECT * FROM users
+WHERE 
+first_name LIKE('%is')
+-- No exemplo acima, exibimos todos os nomes terminados em 'is', a porcentagem indica que ele deve ignorar tudo que vem antes DELAYED 
+-- É possivel também fazer uma pesquisa por inicias de nomes, tendo em vista que a porcentagem ignora o que vem antes
+
+SELECT * FROM users u 
+WHERE first_name LIKE 'i%a'; -- EXIBE TODOS OS NOMES INICIADOS COM I E TERMINADOS COM A 
+
+-- É possivel procurar por caracteres dentro de palavras que desejamos, por exemplo, se quisermos verificar se existe o caracter 's' no nome 'isa'
+SELECT  * FROM users 
+WHERE first_name LIKE '%s%'; -- ENTRETANTO NOTE QUE VARIOS NOMES APARECERAM, ISSO SE DEVE POIS ELE ESTÁ EXIBINDO TODOS OS NOMES QUE POSSUEM 'S', PARA LIMITAR ISSO É BEM SIMPLES
+
+SELECT  * FROM  users u 
+WHERE  first_name LIKE 'I%s%a';
+-- É Possivel usar o _ para preencher dados que você não tem o conhecimento, exemplo
+SELECT  * FROM users
+WHERE first_name LIKE 'i__'; -- EXIBE TODOS OS NOMES INICIADOS COM I, QUE TENHAM 3 CARACTERES 
+
+SELECT  * FROM users
+WHERE first_name LIKE '___'; -- EXIBE TODOS OS NOMES COM 3 CARACTERES
+
+SELECT  * FROM users
+WHERE first_name LIKE 'i_a'; -- EXIBE TODOS NOMES INICIADOS COM I, COM TRES CARACTERES E TERMINADOS EM A
+
+```
+
+## Consultas com Múltiplas Tabelas
+
+Imagine a seguinte tabela de dados:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 1  | João | 20    | SP     |
+| 2  | Ana  | 18    | RJ     |
+| 3  | José | 20    | SP     |
+| 4  | Lua  | 24    | SP     |
+
+Imagine a seguinte tabela de cursos:
+
+| id | nome | carga_horaria |
+|----|------|---------------|
+| 1  | PHP  | 20            |
+| 2  | Java | 30            |
+| 3  | C#   | 40            |
+
+Imagine a seguinte tabela de alunos_cursos:
+
+| id | id_aluno | id_curso |
+|----|----------|----------|
+| 1  | 1        | 1        |
+| 2  | 1        | 2        |
+| 3  | 2        | 1        |
+| 4  | 3        | 3        |
+| 5  | 4        | 2        |
+
+### Exemplo 14
+
+```sql
+
+SELECT * FROM alunos_cursos;
+```
+
+A saída será a seguinte:
+
+| id | id_aluno | id_curso |
+|----|----------|----------|
+| 1  | 1        | 1        |
+| 2  | 1        | 2        |
+| 3  | 2        | 1        |
+| 4  | 3        | 3        |
+| 5  | 4        | 2        |
+
+### Exemplo 15
+
+```sql
+
+SELECT a.nome, c.nome FROM dados.alunos a, dados.cursos c, dados.alunos_cursos ac WHERE a.id = ac.id_aluno AND c.id = ac.id_curso;
+```
+
+A saída será a seguinte:
+
+| nome | nome |
+|------|------|
+| João | PHP  |
+| João | Java |
+| Ana  | PHP  |
+| José | C#   |
+| Lua  | Java |
+
+Só é possível fazer consultas em múltiplas tabelas se houver uma relação entre elas.
+A consula está selecionando o nome do aluno e o nome do curso, para isso é necessário relacionar as tabelas alunos, cursos e alunos_cursos.
+
+
+A condição é que o id do aluno seja igual ao id_aluno da tabela alunos_cursos e que o id do curso seja igual ao id_curso da tabela alunos_cursos.
+
+### Exemplo 16
+
+```sql
+
+SELECT a.nome, c.nome FROM dados.alunos a, dados.cursos c, dados.alunos_cursos ac WHERE a.id = ac.id_aluno AND c.id = ac.id_curso AND c.nome = 'Java';
+```
+
+A saída será a seguinte:
+
+| nome | nome |
+|------|------|
+| João | Java |
+| Lua  | Java |
+
+### Exemplo 17
+
+```sql
+
+SELECT a.nome, c.nome FROM dados.alunos a, dados.cursos c, dados.alunos_cursos ac WHERE a.id = ac.id_aluno AND c.id = ac.id_curso AND a.nome = 'Lua';
+```
+
+A saída será a seguinte:
+
+| nome | nome |
+|------|------|
+| Lua  | Java |
+
+### Exemplo 18
+
+```sql
+
+SELECT a.nome, c.nome FROM dados.alunos a, dados.cursos c, dados.alunos_cursos ac WHERE a.id = ac.id_aluno AND c.id = ac.id_curso AND a.nome = 'Lua' AND c.nome = 'Java';
+```
+
+A saída será a seguinte:
+
+| nome | nome |
+|------|------|
+| Lua  | Java |
+
+### Exemplo 19
+
+```sql
+
+SELECT a.nome, a.cidade c.nome FROM dados.alunos a, dados.cursos c, dados.alunos_cursos ac WHERE a.id = ac.id_aluno AND c.id = ac.id_curso AND a.cidade = 'SP';
+```
+
+A saída será a seguinte:
+
+| nome | nome |
+|------|------|
+| João | Java |
+| João | PHP  |
+| José | C#   |
+| Lua  | Java |
+
