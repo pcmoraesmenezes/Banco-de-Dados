@@ -23,6 +23,7 @@ Se divide em 5 subgrupos:
 ### Informações sobre DDL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DDL.md)
 
 ### Informações sobre DCL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DCL.md)
+### Informações sobre DCL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DCL.md)
 
-### Informações sobre DTL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DTL.md)
+### Informações sobre DTL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/Joins.md)
 
