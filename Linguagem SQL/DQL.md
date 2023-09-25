@@ -420,3 +420,60 @@ A saída será a seguinte:
 | José | C#   |
 | Lua  | Java |
 
+## Subconsultas
+
+Imagine a seguinte tabela de dados:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 1  | João | 20    | SP     |
+| 2  | Ana  | 18    | RJ     |
+| 3  | José | 20    | SP     |
+| 4  | Lua  | 24    | SP     |
+
+Imagine a seguinte tabela de cursos:
+
+| id | nome | carga_horaria |
+|----|------|---------------|
+| 1  | PHP  | 20            |
+| 2  | Java | 30            |
+| 3  | C#   | 40            |
+
+Imagine a seguinte tabela de alunos_cursos:
+
+| id | id_aluno | id_curso |
+|----|----------|----------|
+| 1  | 1        | 1        |
+| 2  | 1        | 2        |
+| 3  | 2        | 1        |
+| 4  | 3        | 3        |
+| 5  | 4        | 2        |
+
+### Exemplo 20
+
+```sql
+
+SELECT * FROM alunos WHERE id IN (SELECT id_aluno FROM alunos_cursos WHERE id_curso = 1);
+```
+
+A saída será a seguinte:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 1  | João | 20    | SP     |
+| 2  | Ana  | 18    | RJ     |
+
+
+### Exemplo 21
+
+```sql
+
+SELECT * FROM alunos WHERE id NOT IN (SELECT id_aluno FROM alunos_cursos WHERE id_curso = 2);
+```
+
+A saída será a seguinte:
+
+| id | nome | idade | cidade |
+|----|------|-------|--------|
+| 3  | José | 20    | SP     |
+| 4  | Lua  | 24    | SP     |
