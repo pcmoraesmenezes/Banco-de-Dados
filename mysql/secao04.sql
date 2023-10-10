@@ -36,3 +36,30 @@ SELECT produtos.codigo AS cod , produtos.descricao AS descr, produtos.preco AS p
 SELECT produtos.codigo AS 'Código' , produtos.descricao AS 'Descrição', produtos.preco AS 'preço', produtos.codigo_tipo AS 'Código tipo produto' FROM produtos; 
 
 
+# DML 
+
+-- Insert
+INSERT INTO produtos (descricao, preco, codigo_tipo) VALUES ('Notebook', '1500', 1);
+
+INSERT INTO produtos (descricao, preco, codigo_tipo) VALUES ('Macbook Pro', '3700', 1);
+
+-- Se passarmos o campo id como null ele irá auto incrementar evitando que o campo fique null
+
+INSERT INTO produtos VALUES (NULL, 'Impressora 3d', '5000', 2);
+
+SELECT * FROM produtos WHERE produtos.descricao = 'Impressora 3d';
+
+INSERT INTO tipos_produto VALUES (NULL, 'Apple');
+
+-- UPDATE
+
+SELECT * FROM produtos
+
+UPDATE produtos SET codigo_tipo = 5 WHERE codigo = 10;
+
+UPDATE produtos SET descricao = 'Impr. Jato de Tinta', preco = '500' WHERE codigo = 3;
+
+-- DELETE
+SELECT * FROM produtos;
+
+DELETE FROM produtos WHERE descricao = 'Impressora Laser';
