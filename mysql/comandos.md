@@ -129,3 +129,13 @@ Para deslogar do mysql:
 \q;
 
 ```
+
+Dentro do terminal sql:
+
+Esse comando serve para atualizar o plugin do mysql.
+``` bash
+
+UPDATE user SET plugin='mysql_native_password' WHERE User='root';
+
+```
+

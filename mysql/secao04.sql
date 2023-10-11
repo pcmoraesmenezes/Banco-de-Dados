@@ -63,3 +63,61 @@ UPDATE produtos SET descricao = 'Impr. Jato de Tinta', preco = '500' WHERE codig
 SELECT * FROM produtos;
 
 DELETE FROM produtos WHERE descricao = 'Impressora Laser';
+
+# DDL 
+
+-- CREATE
+
+CREATE DATABASE  IF NOT EXISTS ddl_test; 
+
+USE ddl_test;
+
+CREATE TABLE  people (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(50) NOT NULL
+);
+
+INSERT INTO people VALUES (NULL, 'Paulo');
+
+SELECT * FROM people;
+
+-- ALTER 
+
+ALTER TABLE people ADD ano_nascimento INT;
+
+ALTER TABLE people ADD mes_nasc INT NOT NULL;
+
+UPDATE  people SET ano_nascimento = 2004 WHERE id = 1;
+
+UPDATE people SET mes_nasc = 06 WHERE mes_nasc = 0;
+
+-- DROP
+
+DROP TABLE people;
+
+DROP DATABASE ddl_test;
+
+# DTL
+USE secao04;
+
+SELECT * FROM tipos_produto
+
+-- TRANSACTION
+
+START TRANSACTION;
+	INSERT INTO tipos_produto (descricao) VALUES ('Acessorios');
+	INSERT INTO tipos_produto (descricao) VALUES ('Equipamento');
+	SELECT * FROM tipos_produto tp;
+COMMIT;
+
+ROLLBACK; -- Não funciona se usado apos
+
+START TRANSACTION;
+
+	INSERT INTO produtos VALUES (NULL, 'Fone', '200', 6);
+
+SELECT * FROM produtos p ;
+
+ROLLBACK;
+
+SELECT  * FROM produtos p 
