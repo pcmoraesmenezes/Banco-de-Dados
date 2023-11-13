@@ -34,3 +34,6 @@ Se divide em 5 subgrupos:
 
 ### Informações sobre Funções de Agregação disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/FUNCOES_DE_AGREGACAO.md)
 
+## Apresentação
+
+Foi desenvolvida uma apresentação para um seminario do curso de Banco de Dados pela universidade Federal de Alfenas, a apresentação pode ser encontrada [Aqui:](/Linguagem%20SQL/Apresentação%20Banco%20de%20Dados.pdf)
