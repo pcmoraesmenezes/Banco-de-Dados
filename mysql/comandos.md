@@ -138,4 +138,3 @@ Esse comando serve para atualizar o plugin do mysql.
 UPDATE user SET plugin='mysql_native_password' WHERE User='root';
 
 ```
-
