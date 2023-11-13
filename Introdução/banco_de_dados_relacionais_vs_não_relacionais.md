@@ -72,3 +72,4 @@ Já os bancos de dados não relacionais, os mais comuns trabalham através de ch
     ), todos os usuarios são clientes conectando-se aos servidores. Então quando se fala de uma arquitetura cleinte-servidor, em algum lugar, existe um serviço(um serviço
     web, de banco de dados, hospedagem, internet, arquivos, etc) conectando ao cliente. O acesso ao serviço é feito através dos clientes.
     Mesmo estando conectando em um ambiente local, utiliza-se um cliente para fazer um acesso, não se acessa o servidor diretamente.
+    
