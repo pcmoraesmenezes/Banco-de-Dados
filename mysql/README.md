@@ -8,7 +8,7 @@ Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 
 - [Implantação](/mysql/secao04.sql)
 
-- [Função Data e Hora](/mysql/data_e_hora)
+- [Função Data e Hora](/mysql/data_e_hora.sql)
 
 - [Função de Agregação](/mysql/func_agregacao.sql)
 
