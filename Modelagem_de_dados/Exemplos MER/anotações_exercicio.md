@@ -1,5 +1,9 @@
 # Anotações sobre o exercicio
 
+O exercicio é o seguinte:
+
+![Alt text](/Modelagem_de_dados/Exemplos%20MER/exercicio.png)
+
 Observe que há dois tipos de picolés - Normal (agua) e ao Leite.
 
 As informações padrões dos picolés são -> Sabor, Ingredientes, preço e tipo de embalagem, todos picoles tem esses atributos
