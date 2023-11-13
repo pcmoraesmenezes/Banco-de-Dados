@@ -1,1 +1,40 @@
 # Curso-de-banco-de-dados
+
+## Objetivo
+
+O objetivo deste repositório é armazenar todo o aprendizado adquirido durante o curso de banco de dados da plataforma Udemy. O curso pode ser encontrado [aqui](https://www.udemy.com/course/curso-de-banco-de-dados-do-basico-ao-avancado/).
+
+## Status
+
+🚧 **Curso de Banco de Dados em Andamento** 🚀 Em construção... 🚧
+
+
+## Conteúdo
+
+O conteúdo é divido em 18 seções, sendo elas:
+- Seção 1: Apresentação do curso
+---
+
+- Seção 2: Introdução ao banco de dados [Link](/Introdução/banco_de_dados_relacionais_vs_não_relacionais.md)
+---
+- Seção 3: Modelagem de Dados [Link](/Modelagem_de_dados/modelagem_conceitual_logica_&_fisica.md)
+
+
+#### Além Disso, a seção 3 possuí subseções, sendo elas:
+
+- Subseção 3.1 Primeira Forma normal: [Link](/Modelagem_de_dados/primeira_forma_normal.md)
+
+- Subseção 3.2 Segunda Forma normal: [Link](/Modelagem_de_dados/segunda_forma_normal.md)
+
+- Subseção 3.3 Terceira Forma normal: [Link](/Modelagem_de_dados/terceira_forma_normal.md)
+
+- Subseção 3.4 Outras Formas normais: [Link](/Modelagem_de_dados/outras_formas_normais.md)
+
+- Subseção 3.5 Exemplos de MER: [Link](/Modelagem_de_dados/Exemplos%20MER/anotações_exercicio.md)
+
+---
+- Seção 4: Linguagem SQL - Parte I [Link](/Linguagem%20SQL/README.md)
+
+- Seção 5: Linguagem SQL - Parte II [Link](/Linguagem%20SQL/README.md)
+---
+
