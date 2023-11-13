@@ -2,6 +2,8 @@
 
 Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 
+### Utilize os hyperlinks para navegar entre os arquivos! 
+
 ## Tópicos
 
 - [Comandos](/mysql/comandos.md)
@@ -42,3 +44,6 @@ Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 O resultado final do projeto é esse:
 
 ![Resultado](/mysql/projeto/farmacia.png)
+
+---
+
