@@ -38,3 +38,6 @@ O conteúdo é divido em 18 seções, sendo elas:
 - Seção 5: Linguagem SQL - Parte II [Link](/Linguagem%20SQL/README.md)
 ---
 
+- Seção 6: MySql - Parte I [Link](/mysql/README.md)
+
+- Seção 7: MySql - Parte II [Link](/mysql/README.md)
