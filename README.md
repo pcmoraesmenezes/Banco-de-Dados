@@ -41,3 +41,9 @@ O conteúdo é divido em 18 seções, sendo elas:
 - Seção 6: MySql - Parte I [Link](/mysql/README.md)
 
 - Seção 7: MySql - Parte II [Link](/mysql/README.md)
+
+---
+
+- Seção 8: PostgreSQL - Parte I 🚧 Em construção... 🚧
+
+---
