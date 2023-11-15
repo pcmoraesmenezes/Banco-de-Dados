@@ -1,0 +1,27 @@
+# PostgreSQL
+
+SGBD (Sistema Gerenciador de Banco de Dados) relacional, ou seja, é um sistema que gerencia um banco de dados relacional.
+
+Teve seu projeto iniciado na decada de 80, na universidade de Berkeley, na Califórnia. O projeto foi iniciado por Michael Stonebraker, que é considerado o pai do PostgreSQL.
+
+Foi lançado em 1989, com o nome de Postgres, e em 1996 foi lançado o PostgreSQL, que é a versão atual.
+
+O PostgreSQL é um projeto de código aberto, ou seja, é um software livre, e é mantido por uma comunidade de desenvolvedores.
+
+Usado por milhares de empresas como:
+
+- Instagram
+
+- Netflix
+
+- Spotify
+
+- Uber
+
+- Reddit
+
+---
+
+## Tabela de conteúdos
+
+- [Comandos](/PostgreSQL/Comandos.md)
