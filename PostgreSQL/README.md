@@ -27,3 +27,5 @@ Usado por milhares de empresas como:
 - [Comandos](/PostgreSQL/Comandos.md)
 
 - [Criando banco de dados](/PostgreSQL/criação_de_banco_de_dados.sql)
+
+- [Consultas Simples](/PostgreSQL/consultas_simples.sql)
