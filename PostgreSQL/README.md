@@ -25,3 +25,5 @@ Usado por milhares de empresas como:
 ## Tabela de conteúdos
 
 - [Comandos](/PostgreSQL/Comandos.md)
+
+- [Criando banco de dados](/PostgreSQL/criação_de_banco_de_dados.sql)
