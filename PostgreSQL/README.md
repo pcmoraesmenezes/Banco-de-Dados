@@ -31,3 +31,5 @@ Usado por milhares de empresas como:
 - [Consultas Simples](/PostgreSQL/consultas_simples.sql)
 
 - [DML](/PostgreSQL/DML.sql)
+
+- [DDL](/PostgreSQL/DDL.sql)
