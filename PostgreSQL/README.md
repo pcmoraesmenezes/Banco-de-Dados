@@ -37,3 +37,7 @@ Usado por milhares de empresas como:
 - [DCL](/PostgreSQL/DCL.sql)
 
 - [DTL](/PostgreSQL/DTL.sql)
+
+- [Consultas com Where](/PostgreSQL/consultas_com_where.sql)
+
+- [Consultas de múltiplas tabelas](/PostgreSQL/consultas_de_multiplas_tabela.sql)
