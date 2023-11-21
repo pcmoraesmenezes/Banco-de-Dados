@@ -29,3 +29,5 @@ Usado por milhares de empresas como:
 - [Criando banco de dados](/PostgreSQL/criação_de_banco_de_dados.sql)
 
 - [Consultas Simples](/PostgreSQL/consultas_simples.sql)
+
+- [DML](/PostgreSQL/DML.sql)
