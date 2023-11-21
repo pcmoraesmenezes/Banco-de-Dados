@@ -35,3 +35,5 @@ Usado por milhares de empresas como:
 - [DDL](/PostgreSQL/DDL.sql)
 
 - [DCL](/PostgreSQL/DCL.sql)
+
+- [DTL](/PostgreSQL/DTL.sql)
