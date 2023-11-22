@@ -43,3 +43,5 @@ Usado por milhares de empresas como:
 - [Consultas de múltiplas tabelas](/PostgreSQL/consultas_de_multiplas_tabela.sql)
 
 - [Funções de Agragação](/PostgreSQL/funções_de_agregação.sql)
+
+- [Ordenação](/PostgreSQL/Ordenação.sql)
