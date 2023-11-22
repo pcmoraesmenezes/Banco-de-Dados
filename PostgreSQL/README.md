@@ -47,3 +47,5 @@ Usado por milhares de empresas como:
 - [Ordenação](/PostgreSQL/Ordenação.sql)
 
 - [Funções de Data e Hora](/PostgreSQL/Funções_data_e_hora.sql)
+
+- [Subconsultas](/PostgreSQL/subconsultas.sql)
