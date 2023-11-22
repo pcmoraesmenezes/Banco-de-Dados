@@ -45,3 +45,5 @@ Usado por milhares de empresas como:
 - [Funções de Agragação](/PostgreSQL/funções_de_agregação.sql)
 
 - [Ordenação](/PostgreSQL/Ordenação.sql)
+
+- [Funções de Data e Hora](/PostgreSQL/Funções_data_e_hora.sql)
