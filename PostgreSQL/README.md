@@ -49,3 +49,24 @@ Usado por milhares de empresas como:
 - [Funções de Data e Hora](/PostgreSQL/Funções_data_e_hora.sql)
 
 - [Subconsultas](/PostgreSQL/subconsultas.sql)
+
+---
+
+## Projeto
+
+Para a seção 09 está sendo desenvolvido um projeto de modelagem de dados, criação de tabelas, inserção de dados, consultas, etc.
+
+O projeto é este: 
+
+![Projeto](/PostgreSQL/projeto/descrição.png)
+
+Está sendo utilizada uma ferramenta web para a geração do MER, a ferramenta é esta: [dbdiagram.io](https://dbdiagram.io/home)
+
+O MER gerado é este:
+
+![MER](/PostgreSQL/projeto/MER.png)
+
+
+
+
+---
