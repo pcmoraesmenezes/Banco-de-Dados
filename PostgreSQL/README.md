@@ -66,7 +66,9 @@ O MER gerado é este:
 
 ![MER](/PostgreSQL/projeto/MER.png)
 
+### Criando o banco de dados e tabela
 
+A criação do banco de dados e das tabelas pode ser encontrado [aqui](/PostgreSQL/projeto/criação_tabela.sql)
 
 
 ---
