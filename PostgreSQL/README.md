@@ -70,5 +70,7 @@ O MER gerado é este:
 
 A criação do banco de dados e das tabelas pode ser encontrado [aqui](/PostgreSQL/projeto/criação_tabela.sql)
 
+Inserção de dados de teste: [aqui](/PostgreSQL/projeto/inserindo_dados_de_teste.sql)
+
 
 ---
