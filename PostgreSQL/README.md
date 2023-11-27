@@ -72,5 +72,7 @@ A criação do banco de dados e das tabelas pode ser encontrado [aqui](/PostgreS
 
 Inserção de dados de teste: [aqui](/PostgreSQL/projeto/inserindo_dados_de_teste.sql)
 
+Consultas Simples: [aqui](/PostgreSQL/projeto/consultas_simples.sql)
+
 
 ---
