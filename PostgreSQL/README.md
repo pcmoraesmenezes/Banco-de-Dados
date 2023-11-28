@@ -74,5 +74,6 @@ Inserção de dados de teste: [aqui](/PostgreSQL/projeto/inserindo_dados_de_test
 
 Consultas Simples: [aqui](/PostgreSQL/projeto/consultas_simples.sql)
 
+Consultas Complexas: [aqui](/PostgreSQL/projeto/consultas_complexas.sql)
 
 ---
