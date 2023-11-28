@@ -35,6 +35,26 @@ SELECT af.id, f.titulo, a.nome, af.personagem
 		WHERE af.id_filme = f.id AND
 		af.id_ator = a.id;
 		
+-- Clientes e emprestimos
+
+SELECT c.nome, c.sobrenome, e.data 
+	FROM clientes AS c, emprestimos AS e
+		WHERE c.id = e.id_cliente;
+		
+-- Emprestimos, Devoluções, Clientes
+
+SELECT c.nome, c.sobrenome, e.data AS "Data de Emprestimo", d.data AS "Data de Devolução"
+	FROM clientes AS c, emprestimos AS e, devolucoes AS d
+		WHERE c.id = e.id_cliente AND
+		e.id = d.id_emprestimo;
+		
+-- Filmes emprestimos, emprestimos, dvds, filmes e clientes
+
+SELECT c.nome, c.sobrenome, f.titulo, d.quantidade, e.data AS "Data de Emprestimo"
+	FROM clientes AS c, emprestimos AS e, filmes AS f, dvds AS d, filmes_emprestimo
+		WHERE c.id = e.id_cliente AND
+		f.id = d.id_filme AND
+		e.id = filmes_emprestimo.id_emprestimo AND d.id = filmes_emprestimo.id_dvd;
 -- FILTROS
 
 SELECT * FROM generos WHERE id = 2;
