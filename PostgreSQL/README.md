@@ -76,4 +76,6 @@ Consultas Simples: [aqui](/PostgreSQL/projeto/consultas_simples.sql)
 
 Consultas Complexas: [aqui](/PostgreSQL/projeto/consultas_complexas.sql)
 
+Atualizando Dados: [aqui](/PostgreSQL/projeto/atualizando_dados.sql)
+
 ---
