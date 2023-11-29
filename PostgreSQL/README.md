@@ -78,4 +78,5 @@ Consultas Complexas: [aqui](/PostgreSQL/projeto/consultas_complexas.sql)
 
 Atualizando Dados: [aqui](/PostgreSQL/projeto/atualizando_dados.sql)
 
+Excluindo Dados: [aqui](/PostgreSQL/projeto/deletando_dados.sql)
 ---
