@@ -46,6 +46,9 @@ O conteúdo é divido em 18 seções, sendo elas:
 
 - Seção 8: PostgreSQL - Parte I [Link](/PostgreSQL/README.md)
 
-- Seção 9: PostgreSQL - Parte II Em construção... 🚧 
+- Seção 9: PostgreSQL - Parte II [Link](/PostgreSQL/README.md)
+
 
 ---
+
+- Seção 10: Sqlite - Parte I Em construção... 🚧
