@@ -52,3 +52,7 @@ O conteúdo é divido em 18 seções, sendo elas:
 ---
 
 - Seção 10: Sqlite - Parte I Em construção... 🚧
+
+---
+
+- Seção 12: Crud - Em construção... 🚧 
