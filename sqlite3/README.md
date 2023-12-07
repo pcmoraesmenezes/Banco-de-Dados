@@ -13,3 +13,7 @@ Utiliza-se ```Ìnteger``` para definir um campo inteiro, ao invés de ```int```,
 Além disso não existe o tipo de dado ```DATE```, sendo necessário utilizar o ```TEXT``` para armazenar datas.
 
 Não há diferença entre o ```ÌNSERT INTO``` do sqlite para o mysql e postgresql, porém, o sqlite não possui o comando ```SHOW DATABASES```, sendo necessário utilizar o comando ```ATTACH DATABASE``` para anexar um banco de dados.
+
+## Tabela de conteúdos
+
+- [Pequenas práticas introdutórias ao sqlite](/sqlite3/pequenas_praticas.sql)
