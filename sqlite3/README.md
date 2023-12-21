@@ -17,3 +17,13 @@ Não há diferença entre o ```ÌNSERT INTO``` do sqlite para o mysql e postgres
 ## Tabela de conteúdos
 
 - [Pequenas práticas introdutórias ao sqlite](/sqlite3/pequenas_praticas.sql)
+
+- [DML](/sqlite3/DML.sql)
+
+- [DDL](/sqlite3/DDL.sql)
+
+- [DQL](/sqlite3/DQL.sql)
+
+- [DCL](/sqlite3/DCL.sql)
+
+- [DTL](/sqlite3/DTL.sql)
