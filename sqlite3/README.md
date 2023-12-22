@@ -27,3 +27,17 @@ Não há diferença entre o ```ÌNSERT INTO``` do sqlite para o mysql e postgres
 - [DCL](/sqlite3/DCL.sql)
 
 - [DTL](/sqlite3/DTL.sql)
+
+- [Consultas com Where](/sqlite3/consultas_com_where.sql)
+
+- [Consultas de Múltiplas Tabelas](/sqlite3/consultas_de_multiplas_tabelas.sql)
+
+- [Funções de Data e Hora](/sqlite3/funções_data_e_hora.sql)
+
+- [Funções de Agregação](/sqlite3/funções_de_agregaçao.sql)
+
+- [Funções de Ordenação](/sqlite3/funçoes_de_ordenação.sql)
+
+- [Junções de Tabela](/sqlite3/junção_de_tabelas.sql)
+
+- [Subconsultas](/sqlite3/subconsultas.sql)
