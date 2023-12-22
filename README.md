@@ -51,7 +51,7 @@ O conteúdo é divido em 18 seções, sendo elas:
 
 ---
 
-- Seção 10: Sqlite - Parte I Em construção... 🚧 [Link](/sqlite3/README.md)
+- Seção 10: Sqlite - Parte I [Link](/sqlite3/README.md)
 
 ---
 
