@@ -27,3 +27,11 @@ O SQL força a utilziação de um esquema bem definido de dados. O NoSQL não po
 ## Comandos
 
 Os comandos podem ser acessados [aqui](/mongodb/comandos.md).
+
+## Inserções
+
+As inserções podem ser acessadas [aqui](/mongodb/Inserções.md).
+
+## Buscas
+
+As buscas podem ser acessadas [aqui](/mongodb/Buscas.md).
