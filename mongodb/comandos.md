@@ -36,6 +36,15 @@ O show users é utilizado para mostrar todos os usuários existentes.
 show users
 ```
 
+Para criar uma coleção vazia digite:
+
+```bash
+
+db.createCollection("NomeDaColeção")
+
+```
+
+
 Para criar uma coleção no MongoDB, digite:
 
 ```bash
@@ -47,15 +56,3 @@ db.NomeDaColeção.insert({
 })
 
 ```
-
-Substitua o NomeDaColeção pelo nome da coleção que deseja criar, e os campos e valores pelos campos e valores que deseja inserir. O termo insert é depreciado, recomenda-se utilizar o insertOne ou insertMany.
-
-Para verificar os dados de uma coleção, digite:
-
-```bash
-
-db.NomeDaColeção.find()
-
-```
-
-Substitua o NomeDaColeção pelo nome da coleção que deseja verificar.
