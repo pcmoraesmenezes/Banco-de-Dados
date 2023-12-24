@@ -39,3 +39,11 @@ As inserções podem ser acessadas [aqui](/mongodb/Inserções.md).
 ## Buscas
 
 As buscas podem ser acessadas [aqui](/mongodb/Buscas.md).
+
+## Deleção
+
+As deleções podem ser acessadas [aqui](/mongodb/Deleção.md).
+
+## Atualização
+
+As atualizações podem ser acessadas [aqui](/mongodb/Atualização.md).
