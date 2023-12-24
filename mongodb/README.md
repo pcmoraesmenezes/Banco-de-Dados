@@ -24,6 +24,10 @@ O NoSQL é excelente para grandes volumes de dados, enquanto o SQL é excelente 
 
 O SQL força a utilziação de um esquema bem definido de dados. O NoSQL não possui um esquema de dados, ou seja, não é necessário definir o tipo de dado que será armazenado.
 
+## Observação:
+
+Sempre que for realizado o acesso ao MongoDB é recomendavel que se selecione o bando de dados a ser utilizado, pois caso não, o MongoDB irá criar um banco de dados chamado `test` e irá armazenar os dados nele.
+
 ## Comandos
 
 Os comandos podem ser acessados [aqui](/mongodb/comandos.md).
