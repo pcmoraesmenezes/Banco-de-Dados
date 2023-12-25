@@ -135,3 +135,66 @@ db.inscricoes.find({
 })
 
 ```
+
+### Operador $gt
+
+Operador $gt é utilizado para fazer uma busca com mais de uma condição. É o equivalente ao > do SQL.
+
+Exemplo:
+
+```js
+
+db.inscricoes.find({
+        "notas": {
+            $gt: 8.0 // Buscando pelas pessoas que possuem nota maior que 8.0
+        }
+    }
+    )
+
+```
+
+#### O operador $gte é utilizado para fazer uma busca com mais de uma condição. É o equivalente ao >= do SQL.
+
+Como fazer para buscar Apenas 1 registro?
+
+```js
+
+db.inscricoes.findOne({
+        "notas": {
+            $gt: 8.0 // Buscando pelas pessoas que possuem nota maior que 8.0
+        }
+    }
+    )
+
+```
+
+### Metodo sort()
+
+O método sort() é utilizado para ordenar os resultados de uma busca.
+
+
+```js
+
+ db.inscricoes.find().sort("aluno") // ordem crescente
+
+
+```
+
+
+```js
+
+db.inscricoes.find().sort({"aluno": -1}) // ordem decrescente
+
+```
+
+### Metodo limit()
+
+O método limit() é utilizado para limitar a quantidade de resultados de uma busca.
+
+```js
+
+meubanco> db.inscricoes.find().sort({"aluno": -1}).limit(1) // exibir apenas 1 resultado
+
+
+
+```
