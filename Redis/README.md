@@ -3,21 +3,14 @@
 ## Tabela de conteúdos
 
 - [Redis](#redis)
-  - [Instalação](#instalação)
   - [Introdução](#introdução)
   - [Benefícios do Redis](#benefícios-do-redis)
   - [Casos de uso](#casos-de-uso)
   - [Quem usa Redis](#quem-usa-redis)
+  - [Instalação](#instalação)
   - [Inicialização](#inicialização)
 
 
-## Instalação
-
-Dentro do diretório `Redis` digite `make` para executar o container do Redis.
-
-O `make` irá compilar o software, pois o redis não é baixado em formato de executavel, ele é baixado o código fonte, para que seja compilado no servidor, na máquina que ele será utilizado. O redis oferece performance e segurança, pois o código fonte é aberto, e pode ser analisado por qualquer pessoa.
-
-É recomendavel utilizar o `make test`  após a execução do `make`, para verificar se o container está funcionando corretamente.
 
 ## Introdução
 
@@ -88,6 +81,14 @@ O Redis também é muito utilizado como message broker, pois ele possui um siste
 
 É comum que o Redis seja utilizado em conjunto com outros bancos de dados, como o MySQL, MongoDB, etc.
 
+## Instalação
+
+Dentro do diretório `Redis` digite `make` para executar o container do Redis.
+
+O `make` irá compilar o software, pois o redis não é baixado em formato de executavel, ele é baixado o código fonte, para que seja compilado no servidor, na máquina que ele será utilizado. O redis oferece performance e segurança, pois o código fonte é aberto, e pode ser analisado por qualquer pessoa.
+
+É recomendavel utilizar o `make test`  após a execução do `make`, para verificar se o container está funcionando corretamente.
+
 ## Inicialização
 
 Para inicializar o Redis, basta digitar `redis-server` no terminal.
@@ -98,5 +99,45 @@ redis-server
 
 ```
 
+passando a flag `--daemonize yes` o Redis irá rodar em background.
+
+```bash
+
+redis-server --daemonize yes
+
+```
+
+Para acessar o console do Redis, basta digitar `redis-cli` no terminal.
+
+```bash
+
+redis-cli
+
+```
+
+Para desligar o Redis, basta digitar `redis-cli shutdown` no terminal.
+
+```bash
+
+redis-cli shutdown
+
+```
+
+Para ecoar uma mensagem no console do Redis, basta digitar `echo "mensagem"` no terminal.
+
+```bash
+
+echo "mensagem"
+
+```
+
+
 A porta padrão do Redis é a 6379.
+
+#### **Importante**: Quando se desliga o Redis, os dados são perdidos, pois eles são armazenados na memória RAM, e não em disco.
+
+## Comandos
+
+Para acessar os conteudos relacionados aos comandos do Redis, basta acessar [aqui](/Redis/comandos.md)
+
 
