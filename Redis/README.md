@@ -1,5 +1,16 @@
 # Redis
 
+## Tabela de conteúdos
+
+- [Redis](#redis)
+  - [Instalação](#instalação)
+  - [Introdução](#introdução)
+  - [Benefícios do Redis](#benefícios-do-redis)
+  - [Casos de uso](#casos-de-uso)
+  - [Quem usa Redis](#quem-usa-redis)
+  - [Inicialização](#inicialização)
+
+
 ## Instalação
 
 Dentro do diretório `Redis` digite `make` para executar o container do Redis.
@@ -76,3 +87,16 @@ O Redis também é muito utilizado como message broker, pois ele possui um siste
 - Craigslist
 
 É comum que o Redis seja utilizado em conjunto com outros bancos de dados, como o MySQL, MongoDB, etc.
+
+## Inicialização
+
+Para inicializar o Redis, basta digitar `redis-server` no terminal.
+
+```bash
+
+redis-server
+
+```
+
+A porta padrão do Redis é a 6379.
+
