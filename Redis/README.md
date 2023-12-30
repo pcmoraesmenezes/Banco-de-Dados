@@ -9,7 +9,7 @@
   - [Quem usa Redis](#quem-usa-redis)
   - [Instalação](#instalação)
   - [Inicialização](#inicialização)
-
+  - [Comandos](#comandos)
 
 
 ## Introdução
