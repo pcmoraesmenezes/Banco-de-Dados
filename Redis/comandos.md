@@ -17,6 +17,13 @@
         - [Deletar uma chave](#deletar-uma-chave)
         - [Deletar múltiplas chaves](#deletar-múltiplas-chaves)
         - [Deletar um hash](#deletar-um-hash)
+  - [Listas](#listas)
+    - [Inserção](#inserção-1)
+        - [Inserção à esquerda](#inserção-à-esquerda)
+        - [Inserção à direita](#inserção-à-direita)
+    - [Recuperação](#recuperação-1)
+    - [Deleção](#deleção-1)
+        
 
 ## Básicos
 
