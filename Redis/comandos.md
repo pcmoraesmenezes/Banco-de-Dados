@@ -5,9 +5,18 @@
 - [Comandos do Redis](#comandos-do-redis)
   - [Básicos](#básicos)
     - [Inserção](#inserção)
+        - [Inserção única](#inserção-única)
+        - [Inserção múltipla](#inserção-múltipla)
+        - [Inserção Única de Hashes](#inserção-única-de-hashes)
     - [Recuperação](#recuperação)
+        - [Buscas com *](#buscas-com-)
+        - [Buscas com ?](#buscas-com-1)
+        - [Buscas de hashes](#buscas-de-hashes)
     - [Atualização](#atualização)
     - [Deleção](#deleção)
+        - [Deletar uma chave](#deletar-uma-chave)
+        - [Deletar múltiplas chaves](#deletar-múltiplas-chaves)
+        - [Deletar um hash](#deletar-um-hash)
 
 ## Básicos
 
