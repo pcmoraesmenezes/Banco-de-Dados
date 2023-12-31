@@ -59,7 +59,8 @@ O conteúdo é divido em 18 seções, sendo elas:
 - Seção 12: MongoDB - Parte II [Link](/mongodb/README.md)
 ---
 
-- Seção 13: Redis - Em construção... 🚧 [Link](/Redis/README.md)
+- Seção 13: Redis - Parte I [Link](/Redis/README.md)
+- Seção 14: Redis - Parte II Em construção... 🚧
 
 ---
 
