@@ -149,3 +149,96 @@ Para deletar um hash, basta digitar `hdel chave` no terminal.
 ```bash
 hdel "prova:23-10-2023:Luana" "ingles"
 ```
+
+## Listas
+
+No Redis, é possível criar listas, que são conjuntos de valores.
+
+### Inserção
+
+#### Inserção à esquerda
+
+A inserção à esquerda implica que o último elemento inserido será o primeiro a ser recuperado.
+
+Para inserir um elemento em uma lista, basta digitar `lpush chave valor` no terminal.
+
+```bash
+lpush "streaming" "Up: Altas Aventuras"
+```
+
+É possível inserir múltiplos valores em uma lista, basta digitar `lpush chave valor1 valor2` no terminal.
+
+```bash
+lpush "streaming" "Up: Altas Aventuras" "Toy Story"
+```
+
+#### Inserção à direita
+
+A inserção à direita implica que o último elemento inserido será o último a ser recuperado.
+
+Para inserir um elemento em uma lista, basta digitar `rpush chave valor` no terminal.
+
+```bash
+rpush "streaming" "Star Wars I - A ameaça fantasma"
+```
+
+É possível inserir múltiplos valores em uma lista, basta digitar `rpush chave valor1 valor2` no terminal.
+
+```bash
+rpush "streaming" "Clube da Luta" "The Big Bang Theory"
+```
+
+#### Recuperação
+
+Para recuperar um indice de uma lista, basta digitar `lindex chave indice` no terminal.
+
+```bash
+lindex "streaming" 0
+```
+Lembrando que a inserção de novos elementos é feita a esquerda, então o indice 0 é o último elemento inserido, que nesse caso seria o último lançamento do serviço de streaming.
+
+Para recuperar o último valor de uma lista, basta substituir o indice por `-1`.
+
+```bash
+lindex "streaming" -1
+```
+
+Para recuperar todos os elementos de uma lista, basta digitar `lrange chave 0 -1` no terminal.
+
+```bash
+lrange "streaming" 0 -1
+```
+
+Para recuperar o tamanho de uma lista, basta digitar `llen chave` no terminal.
+
+```bash
+llen "streaming"
+```
+
+### Deleção
+
+Para deletar o último elemento de uma lista, basta digitar `rpop chave` no terminal.
+
+```bash
+rpop "streaming" 0
+```
+
+Para deletar o primeiro elemento de uma lista, basta digitar `lpop chave` no terminal.
+
+```bash
+lpop "streaming" 0
+```
+
+Para deletar um elemento de uma lista, basta digitar `lrem chave 0 valor` no terminal.
+
+```bash
+lrem "streaming" 0 "Up: Altas Aventuras"
+```
+
+Para aparar uma lista, basta digitar `ltrim chave 0 1` no terminal.
+
+Esse comando irá manter apenas os elementos de indice 0 e 1, deletando os demais.
+
+```bash
+ltrim "streaming" 0 1
+```
