@@ -1,5 +1,13 @@
 # Comandos do Redis
 
+## Tabela de conteúdos
+
+- [Comandos do Redis](#comandos-do-redis)
+  - [Básicos](#básicos)
+    - [Inserção](#inserção)
+    - [Recuperação](#recuperação)
+    - [Atualização](#atualização)
+    - [Deleção](#deleção)
 
 ## Básicos
 
