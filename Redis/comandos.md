@@ -249,3 +249,192 @@ Esse comando irá manter apenas os elementos de indice 0 e 1, deletando os demai
 ```bash
 ltrim "streaming" 0 1
 ```
+
+## Filas
+
+No Redis, é possível criar filas, que são conjuntos de valores. As filas são muito utilizadas para armazenar mensagens, e são muito utilizadas em sistemas de mensagens e chat.
+
+Não há implementação direta de filas no Redis, mas é possível implementar filas utilizando listas.
+
+### Inserção
+
+Para inserir um elemento em uma fila, basta digitar `rpush chave valor` no terminal.
+
+```bash
+RPUSH "fila:confirma-celular" "12312312313"
+```
+
+### Recuperação
+
+Para recuperar um elemento de uma fila, basta digitar `lindex chave indice` no terminal.
+
+```bash
+lindex "fila:confirma-celular" 0
+```
+
+### Deleção
+
+Para deletar um elemento de uma fila, basta digitar `lpop chave` no terminal.
+
+```bash
+
+lpop "fila:confirma-celular"
+
+```
+
+O `lpop` irá recuperar o primeiro elemento da fila, e deletá-lo.
+
+Para remover o ultimo elemento da fila, basta digitar `rpop chave` no terminal.
+
+```bash
+
+rpop "fila:confirma-celular"
+
+```
+
+O `rpop` irá recuperar o último elemento da fila, e deletá-lo.
+
+### Busy Waiting
+
+O busy waiting é uma técnica utilizada para verificar se uma determinada condição é verdadeira, e caso não seja, o programa fica em um loop infinito até que a condição seja verdadeira. O sistema fica esperando até que haja uma mensagem na fila, e quando houver, o sistema irá processar a mensagem. Isso é um problema, pois o sistema fica em um loop infinito, consumindo recursos do servidor.
+
+Há uma forma de resolver esse problema, que é utilizando o `blpop`, que é um comando que irá bloquear o sistema até que haja uma mensagem na fila, e quando houver, o sistema irá processar a mensagem.
+
+```bash
+blpop "fila:confirma-celular" 0
+```
+
+O `blpop` irá bloquear o sistema pela quantidade de segundos passada como parâmetro, e quando houver uma mensagem na fila, o sistema irá processar a mensagem. Caso tenha elementos para serem processados, o sistema irá processar todos os elementos, e quando não houver mais elementos, o sistema irá bloquear novamente.
+
+A saída é um valor que representa a quantidade de tempo que o sistema ficou bloqueado.
+
+Definindo o timeout como 0, o sistema irá ficar bloqueado até que haja uma mensagem na fila.
+
+Também existe o `brpop`, que funciona da mesma forma que o `blpop`, mas irá recuperar o último elemento da fila.
+
+## Hashes
+
+Como menciona anteriormente, um hash é um conjunto de múltiplas chaves e valores, que podem ser recuperados de uma só vez.
+
+### Incremento Interativo
+
+
+Imagine o seguinte armazenamento de dados:
+
+```bash
+1) "Luana"
+2) "750"
+3) "Rafael"
+4) "800"
+5) "Matheus"
+6) "470"
+7) "Eduardo"
+8) "500"
+```
+
+Esse sistema está armazenando pontos de um jogo, e o sistema precisa atualizar os pontos de um jogador. Para isso, o sistema precisa recuperar o valor atual de pontos do jogador, e somar com o valor que o jogador fez na última partida. 
+
+Para incrementar um valor, basta digitar `hincrby chave campo valor` no terminal.
+
+```bash
+hincrby "pontos" "Rafael" 100
+```
+
+Para incrementar um valor de ponto flutuante, basta digitar `hincrbyfloat chave campo valor` no terminal.
+
+```bash
+hincrbyfloat "pontos" "Luana" 23.47
+```
+
+Observe como está a distribuição de pontos:
+
+```bash
+1) "Luana"
+2) "750"
+3) "Rafael"
+4) "900"
+5) "Matheus"
+6) "470"
+7) "Eduardo"
+8) "500"
+```
+### Ordenação
+
+Como mencionado esse sistema está armazenando pontos de um jogo. O ideal seria se ele fosse capaz de armazenar ordenadamente os pontos, ou seja quem possui mais pontos, estaria no topo da lista, e quem possui menos pontos, estaria no final da lista.
+
+É possível ordenar valores com hashes? Sim, é possível, mas não é recomendado. O ideal seria utilizar o `zadd`, que é um comando específico para ordenação.
+
+
+## Ordenação - (ZSET)
+
+Para recuperar os pontos de forma ordenada, basta digitar `zrange chave 0 -1` no terminal.
+
+Para ordenar, basta digitar `zadd chave valor campo` no terminal.
+
+Essa inserção é feita de forma diferente, pois o `zadd` irá ordenar os valores de acordo com o valor passado como parâmetro, e não de acordo com o indice.
+
+Por padrão, o `zadd` irá ordenar os valores de forma crescente, mas é possível ordenar de forma decrescente, basta digitar `zadd chave valor campo desc` no terminal.
+
+```bash
+zadd "pontos" 750 "Luana" 800 "Rafael" 470 "Matheus" 500 "Eduardo"
+```
+
+Para recuperar os campos, mas invertendo a ordem, basta digitar `zrevrange chave 0 -1` no terminal.
+
+```bash
+zrevrange "pontos" 0 -1
+```
+
+Para recuperar o intervalo de valores, basta digitar `zrange chave valor1 valor2` no terminal.
+
+```bash
+zrange "pontos" 0 1
+```
+
+Para trazer a pontuação basta passar o parâmetro `withscores` no final do comando.
+
+```bash
+
+zrange "pontos" 0 1 withscores
+
+```
+
+O `zscore` irá trazer a pontuação de um determinado campo.
+
+```bash
+
+zscore "pontos" "Luana"
+
+```
+
+O `zrank` irá trazer o indice de um determinado campo.
+
+```bash
+
+zrank "pontos" "Luana"
+
+```
+
+O `zrevrank` irá trazer o indice de um determinado campo, mas invertendo a ordem.
+
+```bash
+
+zrevrank "pontos" "Luana"
+
+```
+
+### Incremento Interativo
+
+Para incrementar um valor, basta digitar `zincrby chave valor campo` no terminal.
+
+```bash
+zincrby "pontos" 100 "Rafael"
+```
+
+Para incrementar um valor de ponto flutuante, basta digitar `zincrbyfloat chave valor campo` no terminal.
+
+```bash
+
+zincrbyfloat "pontos" 23.47 "Luana"
+
+```
