@@ -60,7 +60,7 @@ O conteúdo é divido em 18 seções, sendo elas:
 ---
 
 - Seção 13: Redis - Parte I [Link](/Redis/README.md)
-- Seção 14: Redis - Parte II Em construção... 🚧
+- Seção 14: Redis - Parte II [Link](/Redis/README.md)
 
 ---
 
