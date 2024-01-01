@@ -23,6 +23,16 @@
         - [Inserção à direita](#inserção-à-direita)
     - [Recuperação](#recuperação-1)
     - [Deleção](#deleção-1)
+  - [Filas](#filas)
+    - [Inserção](#inserção-2)
+    - [Recuperação](#recuperação-2)
+    - [Deleção](#deleção-2)
+    - [Busy Waiting](#busy-waiting)
+  - [Hashes](#hashes)
+    - [Incremento Interativo](#incremento-interativo)
+    - [Ordenação](#ordenação)
+  - [Ordenação - (ZSET)](#ordenação---zset)
+    - [Incremento Interativo](#incremento-interativo-1)
         
 
 ## Básicos
