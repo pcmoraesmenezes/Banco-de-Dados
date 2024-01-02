@@ -102,6 +102,14 @@ E para fazer a requisição é preciso fornecer o login e senha.
 }
 ```
 
+Para encontrador todos os documentos de um banco de dados, é preciso fornecer o nome do banco de dados na URL.
+
+```http
+http://localhost:5984/produtos/_all_docs?include_docs=true
+```
+Dessa forma será exibido os dados.
+
+
 Para verificar um documento especifico, é preciso fornecer o nome do banco de dados e o id do documento.
 
 ```http
@@ -126,4 +134,81 @@ O retorno será um JSON com as informações do banco de dados.
 {
     "ok": true
 }
+```
+
+PUT conforme mencionado é utilizado para atualizar um recurso, para atualizar um documento é preciso fornecer o nome do banco de dados e o id do documento.
+
+```http
+http://localhost:5984/produtos/06b7c7b76a8239af15c5ad9bcb00548d
+```
+
+Passando essas informações para o body da requisição, é possível atualizar o documento.
+
+```json
+{
+    "_rev": "1-5bad6573e89350f8a6b87fcb5613b7f2",
+    "nome": "Playstation 4 + 2 Controles",
+    "preco": 2300
+}
+```
+
+### POST
+
+Para criar um novo documento no banco de dados, é preciso fazer uma requisição POST, e fornecer o nome do banco de dados na URL.
+
+```http
+POST http://localhost:5984/produtos
+```
+
+No postman é preciso fornecer o corpo da requisição, que é o documento que será criado no banco de dados.
+
+```json
+{
+    "nome": "Playstation 4",
+    "preco": 2000
+}
+```
+
+O retorno será um JSON com as informações do documento.
+
+```json
+{
+    "ok": true,
+    "id": "06b7c7b76a8239af15c5ad9bcb00548d",
+    "rev": "1-5bad6573e89350f8a6b87fcb5613b7f2"
+}
+```
+
+### DELETE
+
+Para deletar um documento, é preciso fazer uma requisição DELETE, e fornecer o nome do banco de dados,  o id do documento na URL e a revisão do documento no header.
+
+```http
+DELETE http://localhost:5984/produtos/06b7c7b76a8239af15c5ad9bcb006305?rev=1-200ebd1d8d6c394f7539c859da200b2b
+
+```
+
+O retorno será um JSON com as informações do documento.
+
+```json
+{
+    "ok": true,
+    "id": "06b7c7b76a8239af15c5ad9bcb006305",
+    "rev": "2-2e9c9e6b6f6c9c9c9c9c9c9c9c9c9c9c"
+}
+```
+
+Ao tentar fazer um GET no documento, será retornado um erro.
+
+```json
+{
+    "error": "not_found",
+    "reason": "deleted"
+}
+```
+
+Para deletar o banco de dados, é preciso fazer uma requisição DELETE, e fornecer o nome do banco de dados na URL.
+
+```http
+DELETE http://localhost:5984/produtos
 ```
