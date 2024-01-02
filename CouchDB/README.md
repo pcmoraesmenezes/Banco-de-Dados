@@ -1,5 +1,20 @@
 # CouchDB
 
+## Tabela de Conteúdos
+
+- [CouchDB](#couchdb)
+  - [Tabela de Conteúdos](#tabela-de-conteúdos)
+  - [Introdução](#introdução)
+  - [Principais Características](#principais-características)
+    - [API REST](#api-rest)
+  - [Apliações](#apliações)
+    - [GET](#get)
+    - [PUT](#put)
+    - [POST](#post)
+    - [DELETE](#delete)
+  - [Query](#query)
+
+## Introdução
 O CouchDB é um banco de dados não relacional (NoSql) opensource, oriedado a documentos, escrito na linguagem Erlang.
 
 Apesar da tradução literal de cocuh ser sofá e esse ser a logo, CouchDB é - Cluster Of Unreliable Commodity Hardware (CouchDB)
