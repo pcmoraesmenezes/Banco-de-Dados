@@ -212,3 +212,23 @@ Para deletar o banco de dados, é preciso fazer uma requisição DELETE, e forne
 ```http
 DELETE http://localhost:5984/produtos
 ```
+
+## Query
+
+É possível fazer consultas personalizadas no CouchDB utilizando o POSTMAN.
+
+Para fazer uma consulta personalizada é preciso utilizar o método HTTP POST e passar na url o nome do banco de dados e `_find`. Além disso no body da requisição é preciso passar um JSON com os dados da consulta.
+
+```http
+POST http://localhost:5984/produtos/_find
+```
+
+```json
+{
+   "selector": {
+      "preco": {
+         "$gt": 1500
+      }
+   }
+}
+```
