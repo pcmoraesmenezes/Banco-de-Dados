@@ -1,5 +1,24 @@
 # Firebase
 
+## Tabela de conteúdos
+
+- [Firebase](#firebase)
+  - [Tabela de conteúdos](#tabela-de-conteúdos)
+  - [Introdução](#introdução)
+  - [Principais Características](#principais-características)
+    - [Analytics](#analytics)
+    - [Develop](#develop)
+      - [Cloud Messaging](#cloud-messaging)
+      - [Authentication](#authentication)
+      - [Realtime Database](#realtime-database)
+      - [Storage](#storage)
+      - [Hosting](#hosting)
+      - [Remote Config](#remote-config)
+      - [Test Lab](#test-lab)
+      - [Crash Reporting](#crash-reporting)
+  - [Inicialização](#inicialização)
+  - [Criando um projeto](#criando-um-projeto)
+
 O Firebase é uma **plataforma** do Google que contém várias ferramentas e uma excelente infraestrutura para desenvolvimento de aplicações web e mobile.
 
 Criada pela empresa Firebase Inc. em 2011, a plataforma foi adquirida pelo Google em 2014 e desde então vem sendo aprimorada e integrada com outras ferramentas do Google Cloud Platform.
