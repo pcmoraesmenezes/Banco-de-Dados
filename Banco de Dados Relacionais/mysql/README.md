@@ -22,11 +22,13 @@ Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 
 - [Consultas Complexas](/mysql/secao05.sql)
 
+- [CRUDS](/mysql/CRUDS/README.md)
+
 ---
 
 #### Foi desenvolvido um projeto de banco de dados sobre uma farmacia, o projeto é esse: 
 
-![Projeto](/mysql/projeto/projeto.png)
+![Projeto](/Banco%20de%20Dados%20Relacionais/mysql/projeto/projeto.png)
 
 
 - [Criando a Base de dados](/mysql/projeto/criando_data_base.sql)
@@ -43,7 +45,12 @@ Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 
 O resultado final do projeto é esse:
 
-![Resultado](/mysql/projeto/farmacia.png)
+![Resultado](/Banco%20de%20Dados%20Relacionais/mysql/projeto/farmacia.png)
 
 ---
 
+## CRUD
+
+Os CRUDS desenvolvidos até então foram:
+
+- [Produtos](/Banco%20de%20Dados%20Relacionais/mysql/CRUDS/produtos/README.md)
