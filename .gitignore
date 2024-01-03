@@ -1,3 +1,4 @@
 Crud
 .env
 venv/
+__pycache__/
