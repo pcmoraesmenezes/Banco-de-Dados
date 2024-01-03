@@ -39,7 +39,7 @@ Usa-se modelagem para ajudar a descrever com mais detalhes uma estrutura do banc
     - Já a tabela pedido terá os seguintes dados: codigo do produto, quantidade, codigo do cliente, codigo do vendedor
     - Esse modelo de forma textual não é tão interessante, deseja-se buscar a parte gráfica.
 
-Parte gráfica: ![Alt text](/Modelagem_de_dados/images/conceitual1.png)
+Parte gráfica: ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/conceitual1.png)
     Exemplo de DER - Diagrama de Entidade e Relacionamento ou MER - Modelo de entidade e relacionamento
     Uma outra forma seria utilizando um diagrama de classes, mas esse tipo de diagrama implica que o sistema será desenvolvido
     usando orientação a objetos. POrém nem todo o sistema e feito usando orientação a objetos, portanto recomenda-se utilizar o MER
@@ -52,20 +52,20 @@ Nesse modelo pode-se definir a tecnologia utilizada para a armazenagem dos dados
     
     
 Formas de representação de um modelo logico:
-![Alt text](/Modelagem_de_dados/images/modelo_logico1.png) 
+![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico1.png) 
 
 Nessa forma temos basicamente a definiçao dos nomes de tabela,colunas e exemplificação dos dados que serão armazenados.
 
 Além disso conseguimos observar o tipo dos dados, por exemplo pode-se observar que código será um tipo inteiro e o campo Descrição será um tipo string.
 
 
-![Alt text](/Modelagem_de_dados/images/modelo_logico2.png) Exemplo de um banco de dados relacionais, temos a definição de uma tabela - Produto e tipo de produto
+![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico2.png) Exemplo de um banco de dados relacionais, temos a definição de uma tabela - Produto e tipo de produto
 
 É a mesma descrição da imagem anterior, entretanto é uma forma diferente de representação.
 
 Temos uma definição das chaves de cada tabela, ou seja o identificador de cada registro da tabela, na imagem é código, estão destacadas. Os 
         campos em branco são campos comuns. Além disso temos um relacionamento do produto, que é do tipo 
-![Alt text](/Modelagem_de_dados/images/modelo_logico3.png)
+![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico3.png)
 
 Basicamente temos a definição dos nomes de tabela, suas colunas e definição das chaves de cada tabela.
         
@@ -77,8 +77,8 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
 - Nesse nivel se escolhe qual sistema gerenciador de banco de dados será utilizado.
 - No model ofisico é o momento da criação da tabela, é o último passo para se tomar uma decisão do tipo utilizado, é o modelo de implementação!
 - Exemplos:
-    - ![Alt text](/Modelagem_de_dados/images/modelo_fisico1.png)-> Nessa imagem temos uma preparação para a implementação, essa tabela servirá de cadastro para o cliente.
-    - ![Alt text](/Modelagem_de_dados/images/modelo_fisico2.png) -> Utilizando a linguagem SQL, utilizaa-se essa forma para a criação de tabelas e dados.
+    - ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_fisico1.png)-> Nessa imagem temos uma preparação para a implementação, essa tabela servirá de cadastro para o cliente.
+    - ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_fisico2.png) -> Utilizando a linguagem SQL, utilizaa-se essa forma para a criação de tabelas e dados.
 
 - ## Outros conceitos essenciais:
     - ### Entidade:
@@ -86,7 +86,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
 
     Ex: Aluno, carros, produto, vendedor, venda, etc.
     
-     ![Alt text](/Modelagem_de_dados/images/modelo_logico2.png)-> Para essa tabela, tem-se duas entidades:
+     ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico2.png)-> Para essa tabela, tem-se duas entidades:
     Produto e Tipo de produto. Ou seja são as tabelas
 
     - ### Atributo:
@@ -94,7 +94,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
     
     #### Entidade Produto: código, descrição e preço
     Entidade Tipo de Produto: código, descrição.
-    Uma entidade deve ter atributos. ![Alt text](/Modelagem_de_dados/images/modelo_logico2.png) Para essa imagem acima temos os atributos: preço, descrição e codigo para a entidade Produto e descrição 
+    Uma entidade deve ter atributos. ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico2.png) Para essa imagem acima temos os atributos: preço, descrição e codigo para a entidade Produto e descrição 
     e codigo para a entidade Tipo de Produto.
 
     - ### Atributo chave: 
@@ -103,7 +103,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
      É um campo que deve possuir valor unico em todo o conjunto de dados da entidade.
 
     Esse atributo é usado para identificar unicamente um registro da tabela
-    ![Alt text](/Modelagem_de_dados/images/modelo_logico2.png) o Atributo chave é código para ambas entidades.
+    ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico2.png) o Atributo chave é código para ambas entidades.
 
     - ### Relacionamentos:
      Geralmente as entidades nunca estão sozinhas. Normalmente estão associadas com outras entidades.
@@ -114,7 +114,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
     uma descrição muito mais rica do modelo, fica mais claro e melhor utilizado.
 
     O relacionamento pode acontecer entre uma, duas ou varias entidades.
-   ![Alt text](/Modelagem_de_dados/images/modelo_logico2.png) 
+   ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico2.png) 
     temos um relacionamento entre a entidade produto e tipo de produto.
     Isso indica que um produto tem um tipo.
 
@@ -124,7 +124,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
     A chave estrangeira é um atributo presente em uma entidade que indica um relacionamento e representa a chave primaria de uma outra
     entidade.
 
-   ![Alt text](/Modelagem_de_dados/images/modelo_logico2.png) 
+   ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/modelo_logico2.png) 
    temos que a entidade produto teria um atributo que seria a representação de uma outra
     entidade nela. Neste caso a outra entidade é tipo de produto.
 
@@ -134,7 +134,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
     Os principais graus de relacionamento são: Unario, binario e ternario.
 
     - ### Unario:
-        ![Alt text](/Modelagem_de_dados/images/unario.png)
+        ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/unario.png)
          Nessa foto temos dois exemplos de um relacionamento unario, também chamado de grau 1.
 
         Uma entidade se relaciona com ela mesmo. Dependendo do tipo da empresa, temos um funcionario que gerencia outros funcionarios. Um funcionario
@@ -145,7 +145,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
         Não é comum esse tipo de relacionamento 
 
     - ### Binario: 
-        ![Alt text](/Modelagem_de_dados/images/binario.png) Nessa foto temos dois exemplos. Uma entidade se relaciona com outra entidade. Chamado tambem de grau 2.
+        ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/binario.png) Nessa foto temos dois exemplos. Uma entidade se relaciona com outra entidade. Chamado tambem de grau 2.
 
         É o tipo mais comum de relacionamento.
 
@@ -154,7 +154,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
         Aluno cursa uma disciplina, existe uma relação.
 
     - ### Ternario:
-        Também chamado de grau 3: Tres entidades estão relacionadads por um mesmo relacionamento.![Alt text](/Modelagem_de_dados/images/ternario.png)
+        Também chamado de grau 3: Tres entidades estão relacionadads por um mesmo relacionamento.![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/ternario.png)
         Temos um pedido relacionado com 3, existe uma entidade cliente, tipo de pagamento e vendedor, existe um relacionamento pedido, as tres entidades estão relacionadas na mesma relação.
 
         Dependendo da complexidade do projeto podemos ter relacionamentos com grau quaternario, grau 5, 6, 7 etc...
@@ -166,7 +166,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
     Exemplo: Um vendedor pode vender apenas um tipo de produto? ou dois? ou tres? Um produto pode ser vendido por apenas um vendedor? ou por todos?
         
     #### Relacionamento Binario Um para um (1:1):
-    - ![Alt text](/Modelagem_de_dados/images/um_para_um.png)
+    - ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/um_para_um.png)
             Esse relacionamento indica que uma ocorrencia da entidade A pode se relacionar excluisavmente com uma ocorrencia da entidade B e vice versa.
 
         No exemplo da imagem, temos que um vendedor so pode trabalhar em um vendedor, e um escritorio so comporta um vendedor.
@@ -174,7 +174,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
          Note a enumeração em cada uma das pontas para indicar a cardinalidade do relacionamento.
 
     #### Relacionamento Binario Um - Para - Muitos (1:n)
-    ![Alt text](/Modelagem_de_dados/images/um_para_muitos.png)
+    ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/um_para_muitos.png)
         - Indica que uma ocorrencia da entidade A pode se relacionar com varias ocorrencias da entidade B, porem o inverso nao é permitido.
     
     Para a imagem, temos que um vendedor atende muitos clientes, porém cada cliente é atendido apenas por um vendedor especifico.
@@ -186,7 +186,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
     - Exemplo, um vendedor atende muitos clientes e um cliente pode ser atendido por varios vendedores.
 
     - Na prática o relacionamento n:m é dividido em duas relações 1:n e uma nova entidade é criada para representar o relacionamento
-    ![Alt text](/Modelagem_de_dados/images/muitos_para_muitos.png)   
+    ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/muitos_para_muitos.png)   
 
     ### Cardinalidade (Minima):
     - Define a quantidade minima de ocorrencias de uma entidade que precisa estar associada a outra entidade (em carater obrigatorio).
@@ -195,7 +195,7 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
 
     - São representadas por: 0..1, 1..1, 0..n, 1..n, o..*, 1..*, etc (o asterisco significa muitos)
 
-    Exemplo : ![Alt text](/Modelagem_de_dados/images/minimo_zero_maximo_um.png) Um vendedor ocupa um unico escritorio, porém é obrigatorio que ele tenha um escritorio,
+    Exemplo : ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/minimo_zero_maximo_um.png) Um vendedor ocupa um unico escritorio, porém é obrigatorio que ele tenha um escritorio,
         ou seja lê se no minimo um, no maximo um. 
         
     Um escritorio pode ser ocupado por um unico vendedor, porem pode ser que a sala esteja vazia, ainda sem vendedor
@@ -204,10 +204,10 @@ Os campos sublinhados são as chaves, ou seja o identificador do registro.
 
     Formas de Representação:
         - Podemos encontrar uma variedade grande de representações graficas para o MER: os mais comuns são o:
-        ![Alt text](/Modelagem_de_dados/images/um_varios.png)
+        ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/um_varios.png)
         Clássico -> tem-se o relacionamento incluindo a cardinalidade, o 1 indica um e um. Para o lado do cliente, temos um e 
         muitos.
-        ![Alt text](/Modelagem_de_dados/images/pe_de_galinha.png)
+        ![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/pe_de_galinha.png)
         Pé de galinha -> é chamada de pé de galinha por causa dos simbolos, na representação tem-se o mesmo significado do classico acima
         tem-se uma relação um um, e um muitos.
 

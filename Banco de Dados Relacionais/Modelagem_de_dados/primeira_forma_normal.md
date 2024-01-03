@@ -8,7 +8,7 @@ Embora existam cinco formas normais(ou regras de normalização), na prática us
 
 Uma entidade (tabela), estará na primeira forma normal (1FN) se todos os campos forem atômicos (simples) e não multivaloriados(multiplos valores)
 
-![Texto alternativo](/Modelagem_de_dados/images/1FN.png)
+![Texto alternativo](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/1FN.png)
 
 Observe que o campo telefone é multivaloriado, ou seja tem multiplos valorios no mesmo campo, observe o código do cliente, ele é atômico, o mesmo para o nome.
 O mesmo para o campo endereço, ele também está multivalorado. 
@@ -18,7 +18,7 @@ Essa tabela está em desacordo com a Primeira forma normal.
 Observe que o campo endereço possuí três partes, então a ideia é dividir isso em 3 campos da mesma tabela.
 
 
-![Texto alternativo](/Modelagem_de_dados/images/1FN_concertado.png)
+![Texto alternativo](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/1FN_concertado.png)
 
 A tabela então ficará dessa forma. Remove-se o endereço e divide-se as partes do endereço. Dessa forma os valores ficam simples, atômicos, observe que o numero da casa faz parte da rua então não tem influência.
 
@@ -28,7 +28,7 @@ Não se pode criar duas tabelas para um unico campo, como forma de resolver esse
 
 Pode-se porém criar uma nova tabela, uma forma inteligente de contornar o problema.
 
-![Alt text](/Modelagem_de_dados/images/1fn%20concertado.png)
+![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/images/1fn%20concertado.png)
 
 A tabela corrigida ficaria dessa forma. Têm-se o código do cliente e o numero de telefone. Note que os códigos ali são os mesmos do cliente.
 
