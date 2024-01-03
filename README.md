@@ -41,3 +41,7 @@ Os projetos estão separados em relacional e não relacional, e dentro de cada u
 Para acessar os bancos de dados relacionais, basta acessar o diretório [Relacionais](/Banco%20de%20Dados%20Relacionais/README.md).
 
 Para acessar os bancos de dados não relacionais, basta acessar o diretório [Não Relacionais](/Não%20Relacionais/README.md).
+
+Além disso os CRUDS de cada banco de dados podem ser acessados, os CRUDS de banco de dados relacionais vão ser facilmente encontrados
+[Relacionais](/Banco%20de%20Dados%20Relacionais/README.md). Os CRUDS de banco de dados não relacionais vão ser facilmente encontrados
+[Não Relacionais](/Não%20Relacionais/README.md). 
