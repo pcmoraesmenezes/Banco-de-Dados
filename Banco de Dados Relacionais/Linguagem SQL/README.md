@@ -16,24 +16,24 @@ Se divide em 5 subgrupos:
 
 - DTL - Data Transaction Language - Linguagem de Transação de Dados
 
-### Informações sobre DQL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DQL.md)
+### Informações sobre DQL disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/DQL.md)
 
-### Informações sobre DML disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DML.md)
+### Informações sobre DML disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/DML.md)
 
-### Informações sobre DDL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DDL.md)
+### Informações sobre DDL disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/DDL.md)
 
-### Informações sobre DCL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DCL.md)
+### Informações sobre DCL disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/DCL.md)
 
-### Informações sobre DTL disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/DTL.md)
+### Informações sobre DTL disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/DTL.md)
 
-### Informações sobre Joins disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/Joins.md)
+### Informações sobre Joins disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/Joins.md)
 
-### Informações sobre Funções de Agrupamento e ORdenação disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/FUNCOES_DE_AGRUPAMENTO_E_ORDENACAO.md)
+### Informações sobre Funções de Agrupamento e ORdenação disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/FUNCOES_DE_AGRUPAMENTO_E_ORDENACAO.md)
 
-### Informações sobre Funções Data & Hora disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/FUNCOES_DE_DATA_E_HORA.md)
+### Informações sobre Funções Data & Hora disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/FUNCOES_DE_DATA_E_HORA.md)
 
-### Informações sobre Funções de Agregação disponiveis aqui: [Link](https://github.com/pcmoraesmenezes/Curso-de-Banco-de-Dados/blob/main/Linguagem%20SQL/FUNCOES_DE_AGREGACAO.md)
+### Informações sobre Funções de Agregação disponiveis aqui: [Link](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/FUNCOES_DE_AGREGACAO.md)
 
 ## Apresentação
 
-Foi desenvolvida uma apresentação para um seminario do curso de Banco de Dados pela universidade Federal de Alfenas, a apresentação pode ser encontrada [Aqui:](/Linguagem%20SQL/Apresentação%20Banco%20de%20Dados.pdf)
+Foi desenvolvida uma apresentação para um seminario do curso de Banco de Dados pela universidade Federal de Alfenas, a apresentação pode ser encontrada [Aqui:](/Banco%20de%20Dados%20Relacionais/Linguagem%20SQL/Apresentação%20Banco%20de%20Dados.pdf)
