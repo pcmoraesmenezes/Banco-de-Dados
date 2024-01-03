@@ -1,0 +1,2 @@
+mysqlclient==2.2.1
+path==16.9.0
