@@ -6,23 +6,21 @@ Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 
 ## Tópicos
 
-- [Comandos](/mysql/comandos.md)
+- [Comandos](/Banco%20de%20Dados%20Relacionais/mysql/comandos.md)
 
-- [Implantação](/mysql/secao04.sql)
+- [Implantação](/Banco%20de%20Dados%20Relacionais/mysql/secao04.sql)
 
-- [Função Data e Hora](/mysql/data_e_hora.sql)
+- [Função Data e Hora](/Banco%20de%20Dados%20Relacionais/mysql/data_e_hora.sql)
 
-- [Função de Agregação](/mysql/func_agregacao.sql)
+- [Função de Agregação](/Banco%20de%20Dados%20Relacionais/mysql/func_agregacao.sql)
 
-- [Função de Agrupamento & Ordenação](/mysql/func_agrupamento_&_ordenacao.sql)
+- [Função de Agrupamento & Ordenação](/Banco%20de%20Dados%20Relacionais/mysql/func_agrupamento_&_ordenacao.sql)
 
-- [Junção](/mysql/juncao.sql)
+- [Junção](/Banco%20de%20Dados%20Relacionais/mysql/juncao.sql)
 
-- [Subconsultas](/mysql/subconsultas.sql)
+- [Subconsultas](/Banco%20de%20Dados%20Relacionais/mysql/subconsultas.sql)
 
-- [Consultas Complexas](/mysql/secao05.sql)
-
-- [CRUDS](/mysql/CRUDS/README.md)
+- [Consultas Complexas](/Banco%20de%20Dados%20Relacionais/mysql/secao05.sql)
 
 ---
 
@@ -31,15 +29,15 @@ Esse repositório tem como objetivo armazenar os comandos básicos do mysql.
 ![Projeto](/Banco%20de%20Dados%20Relacionais/mysql/projeto/projeto.png)
 
 
-- [Criando a Base de dados](/mysql/projeto/criando_data_base.sql)
+- [Criando a Base de dados](/Banco%20de%20Dados%20Relacionais/mysql/projeto/criando_data_base.sql)
 
-- [Inserção de dados](/mysql/projeto/inserindo_dados_na_tabela.sql)
+- [Inserção de dados](/Banco%20de%20Dados%20Relacionais/mysql/projeto/inserindo_dados_na_tabela.sql)
 
-- [Delete e Update](/mysql/projeto/delete_e_update.sql)
+- [Delete e Update](/Banco%20de%20Dados%20Relacionais/mysql/projeto/delete_e_update.sql)
 
-- [Consultas Simples](/mysql/projeto/consultas_simples.sql)
+- [Consultas Simples](/Banco%20de%20Dados%20Relacionais/mysql/projeto/consultas_simples.sql)
 
-- [Consultas Complexas](/mysql/projeto/consulta_complexa.sql)
+- [Consultas Complexas](/Banco%20de%20Dados%20Relacionais/mysql/projeto/consulta_complexa.sql)
 
 ---
 
@@ -48,9 +46,3 @@ O resultado final do projeto é esse:
 ![Resultado](/Banco%20de%20Dados%20Relacionais/mysql/projeto/farmacia.png)
 
 ---
-
-## CRUD
-
-Os CRUDS desenvolvidos até então foram:
-
-- [Produtos](/Banco%20de%20Dados%20Relacionais/mysql/CRUDS/produtos/README.md)
