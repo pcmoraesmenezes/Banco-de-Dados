@@ -1,5 +1,16 @@
 # Banco de Dados
 
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
+![Static Badge](https://img.shields.io/badge/MySQL-05122A?style=flat&logo=mysql&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/PostgreSQL-05122A?style=flat&logo=postgresql&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/SQLite-05122A?style=flat&logo=sqlite&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/MongoDB-05122A?style=flat&logo=mongodb&logoColor=green)
+![Static Badge](https://img.shields.io/badge/Redis-05122A?style=flat&logo=redis&logoColor=red)
+![Static Badge](https://img.shields.io/badge/CouchDB-05122A?style=plastic&logo=apachecouchdb&logoColor=red)
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+
+
+
 ## Objetivo
 
 O objetivo deste repositório é armazenar os conhecimentos adquiridos em de banco de dados. Neste repositorio será abordado diversos bancos de dados relacionais e não relacionais, além de linguagens de consulta e modelagem de dados.
