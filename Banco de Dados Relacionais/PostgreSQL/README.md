@@ -79,4 +79,5 @@ Consultas Complexas: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto
 Atualizando Dados: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/atualizando_dados.sql)
 
 Excluindo Dados: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/deletando_dados.sql)
+
 ---

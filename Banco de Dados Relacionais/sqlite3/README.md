@@ -16,28 +16,28 @@ Não há diferença entre o ```ÌNSERT INTO``` do sqlite para o mysql e postgres
 
 ## Tabela de conteúdos
 
-- [Pequenas práticas introdutórias ao sqlite](/sqlite3/pequenas_praticas.sql)
+- [Pequenas práticas introdutórias ao sqlite](/Banco%20de%20Dados%20Relacionais/sqlite3/pequenas_praticas.sql)
 
-- [DML](/sqlite3/DML.sql)
+- [DML](/Banco%20de%20Dados%20Relacionais/sqlite3/DML.sql)
 
-- [DDL](/sqlite3/DDL.sql)
+- [DDL](/Banco%20de%20Dados%20Relacionais/sqlite3/DDL.sql)
 
-- [DQL](/sqlite3/DQL.sql)
+- [DQL](/Banco%20de%20Dados%20Relacionais/sqlite3/DQL.sql)
 
-- [DCL](/sqlite3/DCL.sql)
+- [DCL](/Banco%20de%20Dados%20Relacionais/sqlite3/DCL.sql)
 
-- [DTL](/sqlite3/DTL.sql)
+- [DTL](/Banco%20de%20Dados%20Relacionais/sqlite3/DTL.sql)
 
-- [Consultas com Where](/sqlite3/consultas_com_where.sql)
+- [Consultas com Where](/Banco%20de%20Dados%20Relacionais/sqlite3/consultas_com_where.sql)
 
-- [Consultas de Múltiplas Tabelas](/sqlite3/consultas_de_multiplas_tabelas.sql)
+- [Consultas de Múltiplas Tabelas](/Banco%20de%20Dados%20Relacionais/sqlite3/consultas_de_multiplas_tabelas.sql)
 
-- [Funções de Data e Hora](/sqlite3/funções_data_e_hora.sql)
+- [Funções de Data e Hora](/Banco%20de%20Dados%20Relacionais/sqlite3/funções_data_e_hora.sql)
 
-- [Funções de Agregação](/sqlite3/funções_de_agregaçao.sql)
+- [Funções de Agregação](/Banco%20de%20Dados%20Relacionais/sqlite3/funções_de_agregaçao.sql)
 
-- [Funções de Ordenação](/sqlite3/funçoes_de_ordenação.sql)
+- [Funções de Ordenação](/Banco%20de%20Dados%20Relacionais/sqlite3/funçoes_de_ordenação.sql)
 
-- [Junções de Tabela](/sqlite3/junção_de_tabelas.sql)
+- [Junções de Tabela](/Banco%20de%20Dados%20Relacionais/sqlite3/junção_de_tabelas.sql)
 
-- [Subconsultas](/sqlite3/subconsultas.sql)
+- [Subconsultas](/Banco%20de%20Dados%20Relacionais/sqlite3/subconsultas.sql)
