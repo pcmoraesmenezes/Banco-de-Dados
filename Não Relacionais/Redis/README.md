@@ -138,6 +138,6 @@ A porta padrão do Redis é a 6379.
 
 ## Comandos
 
-Para acessar os conteudos relacionados aos comandos do Redis, basta acessar [aqui](/Redis/comandos.md)
+Para acessar os conteudos relacionados aos comandos do Redis, basta acessar [aqui](/Não%20Relacionais/Redis/comandos.md)
 
 

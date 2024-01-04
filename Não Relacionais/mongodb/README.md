@@ -30,20 +30,20 @@ Sempre que for realizado o acesso ao MongoDB é recomendavel que se selecione o 
 
 ## Comandos
 
-Os comandos podem ser acessados [aqui](/mongodb/comandos.md).
+Os comandos podem ser acessados [aqui](/Não%20Relacionais/mongodb/comandos.md).
 
 ## Inserções
 
-As inserções podem ser acessadas [aqui](/mongodb/Inserções.md).
+As inserções podem ser acessadas [aqui](/Não%20Relacionais//mongodb/Inserções.md).
 
 ## Buscas
 
-As buscas podem ser acessadas [aqui](/mongodb/Buscas.md).
+As buscas podem ser acessadas [aqui](/Não%20Relacionais//mongodb/Buscas.md).
 
 ## Deleção
 
-As deleções podem ser acessadas [aqui](/mongodb/Deleção.md).
+As deleções podem ser acessadas [aqui](/Não%20Relacionais//mongodb/Deleção.md).
 
 ## Atualização
 
-As atualizações podem ser acessadas [aqui](/mongodb/Atualização.md).
+As atualizações podem ser acessadas [aqui](/Não%20Relacionais//mongodb/Atualização.md).

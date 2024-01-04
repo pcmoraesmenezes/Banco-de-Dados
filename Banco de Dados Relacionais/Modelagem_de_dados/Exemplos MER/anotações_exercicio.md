@@ -2,7 +2,7 @@
 
 O exercicio é o seguinte:
 
-![Alt text](/Modelagem_de_dados/Exemplos%20MER/exercicio.png)
+![Alt text](/Banco%20de%20Dados%20Relacionais/Modelagem_de_dados/Exemplos%20MER/exercicio.png)
 
 Observe que há dois tipos de picolés - Normal (agua) e ao Leite.
 

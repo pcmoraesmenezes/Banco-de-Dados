@@ -24,31 +24,31 @@ Usado por milhares de empresas como:
 
 ## Tabela de conteúdos
 
-- [Comandos](/PostgreSQL/Comandos.md)
+- [Comandos](/Banco%20de%20Dados%20Relacionais/PostgreSQL/Comandos.md)
 
-- [Criando banco de dados](/PostgreSQL/criação_de_banco_de_dados.sql)
+- [Criando banco de dados](/Banco%20de%20Dados%20Relacionais/PostgreSQL/criação_de_banco_de_dados.sql)
 
-- [Consultas Simples](/PostgreSQL/consultas_simples.sql)
+- [Consultas Simples](/Banco%20de%20Dados%20Relacionais/PostgreSQL/consultas_simples.sql)
 
-- [DML](/PostgreSQL/DML.sql)
+- [DML](/Banco%20de%20Dados%20Relacionais/PostgreSQL/DML.sql)
 
-- [DDL](/PostgreSQL/DDL.sql)
+- [DDL](/Banco%20de%20Dados%20Relacionais/PostgreSQL/DDL.sql)
 
-- [DCL](/PostgreSQL/DCL.sql)
+- [DCL](/Banco%20de%20Dados%20Relacionais/PostgreSQL/DCL.sql)
 
-- [DTL](/PostgreSQL/DTL.sql)
+- [DTL](/Banco%20de%20Dados%20Relacionais/PostgreSQL/DTL.sql)
 
-- [Consultas com Where](/PostgreSQL/consultas_com_where.sql)
+- [Consultas com Where](/Banco%20de%20Dados%20Relacionais/PostgreSQL/consultas_com_where.sql)
 
-- [Consultas de múltiplas tabelas](/PostgreSQL/consultas_de_multiplas_tabela.sql)
+- [Consultas de múltiplas tabelas](/Banco%20de%20Dados%20Relacionais/PostgreSQL/consultas_de_multiplas_tabela.sql)
 
-- [Funções de Agragação](/PostgreSQL/funções_de_agregação.sql)
+- [Funções de Agragação](/Banco%20de%20Dados%20Relacionais/PostgreSQL/funções_de_agregação.sql)
 
-- [Ordenação](/PostgreSQL/Ordenação.sql)
+- [Ordenação](/Banco%20de%20Dados%20Relacionais/PostgreSQL/Ordenação.sql)
 
-- [Funções de Data e Hora](/PostgreSQL/Funções_data_e_hora.sql)
+- [Funções de Data e Hora](/Banco%20de%20Dados%20Relacionais/PostgreSQL/Funções_data_e_hora.sql)
 
-- [Subconsultas](/PostgreSQL/subconsultas.sql)
+- [Subconsultas](/Banco%20de%20Dados%20Relacionais/PostgreSQL/subconsultas.sql)
 
 ---
 
@@ -58,25 +58,25 @@ Para a seção 09 está sendo desenvolvido um projeto de modelagem de dados, cri
 
 O projeto é este: 
 
-![Projeto](/PostgreSQL/projeto/descrição.png)
+![Projeto](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/descrição.png)
 
 Está sendo utilizada uma ferramenta web para a geração do MER, a ferramenta é esta: [dbdiagram.io](https://dbdiagram.io/home)
 
 O MER gerado é este:
 
-![MER](/PostgreSQL/projeto/MER.png)
+![MER](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/MER.png)
 
 ### Criando o banco de dados e tabela
 
-A criação do banco de dados e das tabelas pode ser encontrado [aqui](/PostgreSQL/projeto/criação_tabela.sql)
+A criação do banco de dados e das tabelas pode ser encontrado [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/criação_tabela.sql)
 
 Inserção de dados de teste: [aqui](/PostgreSQL/projeto/inserindo_dados_de_teste.sql)
 
-Consultas Simples: [aqui](/PostgreSQL/projeto/consultas_simples.sql)
+Consultas Simples: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/consultas_simples.sql)
 
-Consultas Complexas: [aqui](/PostgreSQL/projeto/consultas_complexas.sql)
+Consultas Complexas: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/consultas_complexas.sql)
 
-Atualizando Dados: [aqui](/PostgreSQL/projeto/atualizando_dados.sql)
+Atualizando Dados: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/atualizando_dados.sql)
 
-Excluindo Dados: [aqui](/PostgreSQL/projeto/deletando_dados.sql)
+Excluindo Dados: [aqui](/Banco%20de%20Dados%20Relacionais/PostgreSQL/projeto/deletando_dados.sql)
 ---
