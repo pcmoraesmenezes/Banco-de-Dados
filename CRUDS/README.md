@@ -42,3 +42,7 @@ Além disso é necessário instalar as bibliotecas utilizadas em cada CRUD. Para
 [Usuarios](/CRUDS/Sqlite3/usuarios/main.py)
 
 ---
+
+### ![Static Badge](https://img.shields.io/badge/MongoDB-05122A?style=flat&logo=mongodb&logoColor=blue)
+
+[Ecommerce](/CRUDS/MongoDB/ecommerce/main.py)
