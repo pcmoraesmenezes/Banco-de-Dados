@@ -30,3 +30,15 @@ Além disso é necessário instalar as bibliotecas utilizadas em cada CRUD. Para
 
 [Produtos](/CRUDS/MySQL/produtos/main.py)
 
+---
+### ![Static Badge](https://img.shields.io/badge/PostgreSQL-05122A?style=flat&logo=postgresql&logoColor=blue)
+
+[Tarefas](/CRUDS/PostgreSQL/tarefas/main.py)
+
+---
+
+### ![Static Badge](https://img.shields.io/badge/SQLite-05122A?style=flat&logo=sqlite&logoColor=blue)
+
+[Usuarios](/CRUDS/Sqlite3/usuarios/main.py)
+
+---
