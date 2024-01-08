@@ -46,3 +46,9 @@ Além disso é necessário instalar as bibliotecas utilizadas em cada CRUD. Para
 ### ![Static Badge](https://img.shields.io/badge/MongoDB-05122A?style=flat&logo=mongodb&logoColor=blue)
 
 [Ecommerce](/CRUDS/MongoDB/ecommerce/main.py)
+
+---
+
+### ![Static Badge](https://img.shields.io/badge/Redis-05122A?style=flat&logo=redis&logoColor=blue)
+
+[Produtos](/CRUDS/Redis/produtos/main.py)
