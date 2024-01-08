@@ -52,3 +52,9 @@ Além disso é necessário instalar as bibliotecas utilizadas em cada CRUD. Para
 ### ![Static Badge](https://img.shields.io/badge/Redis-05122A?style=flat&logo=redis&logoColor=blue)
 
 [Produtos](/CRUDS/Redis/produtos/main.py)
+
+---
+
+### ![Static Badge](https://img.shields.io/badge/CouchDB-05122A?style=flat&logo=apache-couchdb&logoColor=blue)
+
+[Produtos](/CRUDS/CouchDB/produtos/main.py)
